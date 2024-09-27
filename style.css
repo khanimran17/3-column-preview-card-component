@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lexend Deca", sans-serif;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-component{
+    display: flex;
+    margin: 100px 50px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 800px;
+}
+
+
+.card-component h2{
+    color: #f2f2f2;
+    padding-top: 20px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.card-component a{
+    text-decoration: none;
+    font-weight: 400;
+    border: 2px solid #f2f2f2;
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: #f2f2f2;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.card-component a:hover{
+    background-color: transparent;
+    color: #f2f2f2;
+}
+
+
+.card-component p{
+    color: rgba(255, 255, 255, 0.75);
+    padding: 1.5rem 0px 5em 0px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    font-size: 15px;
+}
+
+.card{
+    padding-block: 50px;
+    padding-left: 40px;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sedans{
+    background-color: #E28524;
+}
+
+.sedans a{
+    color: #E28524;
+}
+
+
+.suv{
+    background-color:#016971;
+}
+
+.suv a{
+    color: #016971;
+}
+
+.luxury{
+    background-color: #00403F;
+}
+
+.luxury a{
+    color: #00403F;
+}
+
+@media (max-width:800px){
+    .card-component{
+        flex-direction: column;
+    }
+}
